@@ -1,0 +1,15 @@
+#rainbow {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#resultMessage {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.rainbow-img {
+    width: 100px;
+    height: auto;
+}
