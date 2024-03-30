@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "nom": "Tokisaki",
+      "prenom": "Kurumi",
+      "email": "kurumi.tokisaki@example.com"
+    },
+    {
+      "id": 2,
+      "nom": "Mashiro",
+      "prenom": "Shiina",
+      "email": "shiina.mashiro@example.com"
+    },
+    {
+      "id": 3,
+      "nom": "Nanami",
+      "prenom": "Chiaki",
+      "email": "chiaki.nanami@example.com"
+    }
+  ]
+  

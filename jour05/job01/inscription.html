@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="style.css">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="connexion.html">Connexion</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+            </ul>
+        </nav>
+    </header>
+</head>
+<body>
+    <div class="container">
+        <h2>Inscription</h2>
+        <form id="inscriptionForm" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            <span class="error" id="nomError"></span>
+
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required>
+            <span class="error" id="prenomError"></span>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error" id="emailError"></span>
+
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password" required>
+            <span class="error" id="passwordError"></span>
+
+            <label for="adresse">Adresse :</label>
+            <input type="text" id="adresse" name="adresse">
+            <span class="error" id="adresseError"></span>
+
+            <label for="codePostal">Code postal :</label>
+            <input type="text" id="codePostal" name="codePostal">
+            <span class="error" id="codePostalError"></span>
+
+            <button type="submit">S'inscrire</button>
+        </form>
+    </div>
+    <script src="inscription.js"></script>
+</body>
+</html>
